@@ -46,9 +46,9 @@ in_mod = st.selectbox(
   ("Bluey" , "Bingo" , "Bandit"),
 )
 if in_mod =="Bluey":
-  set_mod = "Reproducir audio"
+  set_mod = "Reproducir Bluey"
 elif in_mod == "Bingo":
-  set_mod = "Reproducir video"
+  set_mod = "Reproducir Bingo"
 elif in_mod == "Bandit":
-  set_mod = "Activar vibración"
+  set_mod = "Activar Bandit"
 st.write(" La acción es:" , set_mod)
