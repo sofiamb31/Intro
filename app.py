@@ -45,3 +45,10 @@ in_mod = st.selectbox(
   "Selecciona tu personaje",
   ("Bluey" , "Bingo" , "Bandit"),
 )
+if in_mod =="Bluey":
+  set_mod = "Reproducir audio"
+elif in_mod == "Bingo":
+  set_mod = "Reproducir video"
+elif in_mod == "Bandit":
+  set_mod = "Activar vibración"
+st.write(" La acción es:" , set_mod)
