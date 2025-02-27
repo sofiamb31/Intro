@@ -33,3 +33,15 @@ with col2:
     st.write('Bingo es la hermana menor y la mas consentida')
   if modo == 'Bandit':
     st.write('Bandit es el papa mas cool del universo')
+
+st.subheader("Uso de botones")
+if st.button('Presiona el botón'):
+  st.write('Gracias por presionar')
+else:
+  st.write('No has presionado aun')
+
+st.subheader("Selectbox")
+in_mod = st.selectbox(
+  "Selecciona tu personaje",
+  ("Bluey" , "Bingo" , "Bandit"),
+)
