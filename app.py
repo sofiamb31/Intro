@@ -22,4 +22,14 @@ with col1:
   st.write("Bingo mejora la experiencia del usuario viendo Bluey")
   resp = st.checkbox('Estoy de acuerdo')
   if resp:
-    st.write('Correcto!')
+    st.write('Yo tambien!')
+
+with col2:
+  st.subheader("Esta es la segunda columna")
+  modo = st.radio("Que personaje de Bluey es tu favorito?" , ('Bluey' , 'Bingo' , 'Bandit'))
+  if modo == 'Bluey':
+    st.write('Bluey es el personaje principal y la hermana mayor')
+  if modo == 'Bingo':
+    st.write('Bingo es la hermana menor y la mas consentida')
+  if modo == 'Bandit':
+    st.write('Bandit es el papa mas cool del universo')
