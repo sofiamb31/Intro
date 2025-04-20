@@ -46,9 +46,9 @@ in_mod = st.selectbox(
   ("Bluey" , "Bingo" , "Bandit"),
 )
 if in_mod =="Bluey":
-  set_mod = "Reproducir Bluey"
+  set_mod = "Hola Bluey"
 elif in_mod == "Bingo":
-  set_mod = "Reproducir Bingo"
+  set_mod = "Hola Bingo"
 elif in_mod == "Bandit":
-  set_mod = "Activar Bandit"
+  set_mod = "Hola Bandit"
 st.write(" La acción es:" , set_mod)
